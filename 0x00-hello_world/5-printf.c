@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block use printf
+ *
  * Return: 0
  */
 int main(void)
