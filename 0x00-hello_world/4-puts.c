@@ -2,6 +2,7 @@
 /**
  *main - Uses puts function to print a line
  *
+ *
  *Return: Code should return a 0
  */
 int main(void)
