@@ -1,8 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *main - Uses printf to print a string
- *
- *Shouldn't return anything (0)
+ * main - main block
+ * Return: 0
  */
 int main(void)
 {
