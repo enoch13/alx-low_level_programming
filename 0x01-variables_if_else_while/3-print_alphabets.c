@@ -11,7 +11,7 @@ int main(void)
 	while (i <= 'z')
 	{
 		putchar(i);
-		c++;
+		i++;
 	}
 
 	i = 'A';
