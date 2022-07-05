@@ -1,4 +1,4 @@
-#include "main.h"
+#include <unistd.h>
 /**
  * main - calls the function _putchar
  *
