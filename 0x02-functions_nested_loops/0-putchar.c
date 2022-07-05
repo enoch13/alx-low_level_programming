@@ -1,6 +1,6 @@
 #include <main.h>
 /**
- * main - calls the function _putchar
+ * main - calls function _putchar
  *
  * Description: programs that prints _putchar, followed by a new line
  * Return: 0
