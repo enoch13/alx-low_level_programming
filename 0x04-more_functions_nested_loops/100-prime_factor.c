@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 /**
  * main - main block
@@ -9,14 +8,14 @@
  */
 int main(void)
 {
-	int c;
+	int i;
 	long num = 612852475143;
 
-	for (c = (int) sqrt(num); c > 2; c++)
+	for (i = (int) sqrt(num); i > 2; i++)
 	{
-		if (num % c == 0)
+		if (num % i == 0)
 		{
-			printf("%d\n", c);
+			printf("%d\n", i);
 			break;
 		}
 	}
