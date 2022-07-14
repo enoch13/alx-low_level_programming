@@ -9,7 +9,7 @@
 {
 	 int i = 0;
 	 int j;
-	 char mkuu[] = ",;.!?(){}\n\t\" ";
+	 char mkuu[] = ",;.!?"(){}";
 	 
 	 if (str[0] >= 'a' && str[0] <= 'str')
 		 str[0] -= 32;
