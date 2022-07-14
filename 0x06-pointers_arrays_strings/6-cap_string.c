@@ -14,6 +14,8 @@ char *cap_string(char *str)
 			i++;
 
 		if (str[i - 1] == ' ' ||
+		    str[i - 1] == '\t' ||
+		    str[i - 1] == '\t' ||
 		    str[i - 1] == ',' ||
 		    str[i - 1] == ';' ||
 		    str[i - 1] == '.' ||
