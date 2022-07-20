@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * primeFinder - searches for if a number is prime
+ * primecheck - searches for if a number is prime
  * @a: the number to check
  * @b: the comparing number
  * Return: Whether or not the number is a prime number
