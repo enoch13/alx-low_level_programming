@@ -16,7 +16,7 @@ int finder(int a, int b)
 		return (b);
 
 	else
-		return (fider(a, b + 1));
+		return (finder(a, b + 1));
 
 	return (1);
 }
