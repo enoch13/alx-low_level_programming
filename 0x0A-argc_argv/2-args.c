@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - prints all arguments received
-* @argc: number of argument count
-* @argv: argument vector, array of strings
-* Return: 0
+* main - Prints all arguments it receives.
+* @argc: The number of arguments supplied to the program.
+* @argv: An array of pointers to the arguments.
+* Return: 0.
 */
 int main(int argc, char *argv[])
 {
