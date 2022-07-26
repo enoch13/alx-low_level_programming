@@ -15,11 +15,9 @@ int x, y, z;
 
 if (width <= 0 || height <= 0)
 return (NULL);
-
 a = malloc(sizeof(int *) * height);
 if (a == NULL)
 return (NULL);
-
 for (x = 0; x < height; x++)
 {
 a[x] = malloc(sizeof(int) * width);
@@ -33,7 +31,6 @@ x--;
 free(a);
 return (NULL);
 }
-	
 }
 for (y = 0; y < height; y++)
 {
