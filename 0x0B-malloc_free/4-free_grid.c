@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * print_grid - prints a grid of integers
+ * free_grid - free up a 2d grid
  * @grid: the address of the two dimensional grid
  * @height: height of the grid
  *
