@@ -21,7 +21,7 @@ if (x == NULL)
 return (NULL);
 
 for (i = 0; min <= max; i++, min++)
-p[i] = min;
+x[i] = min;
 
 return (x);
 }
