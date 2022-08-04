@@ -9,7 +9,7 @@
 */
 typedef struct check
 {
-char *c;
+char *cr;
 void (*f)(va_list str);
 } check_t;
 int _putchar(char chr);
