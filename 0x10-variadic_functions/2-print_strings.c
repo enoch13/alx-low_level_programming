@@ -15,7 +15,7 @@ unsigned int i;
 va_start(str, n);
 for (i = 0; i < n; i++)
 {
-str = va_arg(str, char *);
+c = va_arg(str, char *);
 if (c == NULL)
 printf("(nil)");
 else
