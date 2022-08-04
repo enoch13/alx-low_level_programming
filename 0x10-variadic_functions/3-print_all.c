@@ -49,10 +49,10 @@ printf("%s", c);
 void print_all(const char * const format, ...)
 {
 check_t types[] = {
-{"c", chk_char},
-{"i", chk_int},
-{"f", chk_float},
-{"s", chk_string},
+{"c", cr_char},
+{"i", cr_int},
+{"f", cr_float},
+{"s", cr_string},
 {NULL, NULL}
 };
 int i = 0, j = 0;
@@ -61,9 +61,9 @@ char *ca = "";
 va_start(str, format);
 while (format && format[i])
 {
-while (types[j].chk)
+while (types[j].cr)
 {
-if (format[i] == *types[j].chk)
+if (format[i] == *types[j].cr)
 {
 printf("%s", ca);
 types[j].f(str);
