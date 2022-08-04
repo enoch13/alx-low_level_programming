@@ -49,25 +49,25 @@ printf("%s", c);
 void print_all(const char * const format, ...)
 {
 check_t types[] = {
-{"c", cr_char},
-{"i", cr_int},
-{"f", cr_float},
-{"s", cr_string},
+{"c", chk_char},
+{"i", chk_int},
+{"f", chk_float},
+{"s", chk_string},
 {NULL, NULL}
 };
 int i = 0, j = 0;
 va_list str;
-char *ca = "";
+char *separator = "";
 va_start(str, format);
 while (format && format[i])
 {
-while (types[j].cr)
+while (types[j].chk)
 {
-if (format[i] == *types[j].cr)
+if (format[i] == *types[j].chk)
 {
-printf("%s", ca);
+printf("%s", separator);
 types[j].f(str);
-ca = ", ";
+separator = ", ";
 }
 j++;
 }
