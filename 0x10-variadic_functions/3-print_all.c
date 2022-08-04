@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * chk_char - prints the char character
-* @list: the type
+* @str: the type
 * Return: nothing
 */
 void chk_char(va_list str)
