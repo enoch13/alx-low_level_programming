@@ -12,7 +12,6 @@ typedef struct check
 char *c;
 void (*f)(va_list str);
 } check_t;
-
 int _putchar(char chr);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
