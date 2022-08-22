@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
 	int filefrom, fileto, rd, cf, ct;
-	char buffer[MAXSIZE];
+	char buffer[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	fileto = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	while ((rd = read(filefrom, buffer, MAXSIZE)) > 0)
+	while ((rd = read(filefrom, buffer, BUFSIZ)) > 0)
 		if (fileto == -1 || (write(fileto, buffer, rd) != rd))
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
